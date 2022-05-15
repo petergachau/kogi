@@ -1,0 +1,73 @@
+body{
+  background-color: gray;
+}
+h1{
+  color: rgb(87, 11, 226);
+  font-family: cursive;
+  text-align: center;
+  margin-left: 12rem !important;
+}
+h3{
+  margin-top: 0.7rem;
+  color: rgb(8, 236, 27);
+  text-align: center;
+}
+.section{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: whitesmoke;
+  height: 18rem;
+  width: 12rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.img{
+  height:7rem ;
+  width: 7rem;
+  align-items: center;
+  margin: 0.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+footer{
+  height: 3rem;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  background-color: purple !important;
+}
+h6{
+  text-align: center;
+  margin-left: 5rem;
+}
+nav{
+  background-color: black;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  justify-content: space-evenly;
+}
+h4{
+  color: azure;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  
+}
+li{
+  margin-left: 2rem;
+  list-style: none;
+}
+@media (max-width:760) {
+h1{
+   margin-left: 0.5rem !important;
+}   
+}
